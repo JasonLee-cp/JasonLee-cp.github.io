@@ -136,7 +136,7 @@ The above is the **EfficientNet-B0** baseline architecture.
 
 Starting from this baseline model, we follow the two steps to build **EfficientNets** family.
 
-- Step 1: Fix $\phi=1$. Perform a small grid search for $\alpha,\beta,\gamma$ based on equations $(2), (3)$. The paper foundt the best values for EfficientNet-80 to be $\alpha=1.2,\beta=1.1,\gamma=1.15$.
+- Step 1: Fix $\phi=1$. Perform a small grid search for $\alpha,\beta,\gamma$ based on equations $(2), (3)$. The paper foundt the best values for EfficientNet-8 to be $\alpha=1.2,\beta=1.1,\gamma=1.15$.
 - Step 2: Now fix $\alpha, \beta, \gamma$ as constants and scale up with different $\phi$ values based on the equation $(3)$ to obtain EfficientNet-B1 to B7 (Table 2).
 
 > # Experiments & Performance
