@@ -8,7 +8,8 @@ author_profile: true
 sidebar_main: true
 ---
 
-Reference: [https://arxiv.org/pdf/1905.11946.pdf](https://arxiv.org/pdf/1905.11946.pdf)
+Reference: [https://arxiv.org/pdf/1905.11946.pdf](https://arxiv.org/pdf/1905.11946.pdf)  
+Presentation slides: [slideshare ppt](https://www.slideshare.net/ZGoo/efficientnet-251194008)
 
 > # Intro
 
@@ -48,7 +49,7 @@ These networks are so huge that they can only be trained with specialized pipeli
 
 > # ConvNet Efficiency
 
-Often deep CNNS are overparameterized(too complex w.r.t size of dataset). Model compression is frequently used to reduce the model size, trading efficiency for accuracy such as MobileNets, ShuffleNets, and SqueezeNets. They work out pretty well. Neural Network Search(nas) also contribute to better efficiency than hand-crated mobile ConvNets with extensive tunning. However, the way of applying these techniques to very large models is still unclear.
+Often deep CNNS are overparameterized(too complex w.r.t size of dataset). Model compression is frequently used to reduce the model size, trading efficiency for accuracy such as MobileNets, ShuffleNets, and SqueezeNets. They work out pretty well. Neural Architecture Search(nas) also contribute to better efficiency than hand-crated mobile ConvNets with extensive tunning. However, the way of applying these techniques to very large models is still unclear.
 
 > # Compound Model Scaling
 
@@ -121,7 +122,7 @@ To demonstrate the validity of balanced scaling, the experiment was performed wh
 - $\phi$ is a user-defined coefficient that is selected according to the resource budget.
 - FLOPs of a regular conv operation is proportional to $d,w^2,r^2$. If you double the network depth, the FLOPs will be doubled. However, if you double network width, then the FLOPs will be quadrupled since input and output of a layer are both doubled($C$ to $2C$ for input and output, so $4C^2$). Doubling resolution obviously increases FLOPs by 4 times.
 - Since conv operations usually dominate the CNN computational cost, scaling network dimensions with the method $(3)$ will approximately increase the total FLOPs by $(\alpha * \beta * \gamma)^{\phi}$.
-- The paper contraints $\alpha * \beta * \gamma \approx 2$. Therefore, the total FLOPS will be roughly increased by $2^\phi$.
+- The paper contraints $\alpha * \beta^2 * \gamma^2 \approx 2$. Therefore, the total FLOPS will be roughly increased by $2^\phi$.
 
 > # EfficientNet Architecture
 
