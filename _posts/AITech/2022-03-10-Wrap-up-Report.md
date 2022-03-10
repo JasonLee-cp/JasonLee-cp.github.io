@@ -9,6 +9,8 @@ tag: [boostcamp, python]
 
 Covid19 has been increasingly contagious all around the globe. The most crucial thing to prevent the spread is to wear mask. However, it's hard to make sure that people are correctly wearing mask correctly. Therefore, we need a system to classify whether a person wears mask correctly, wears mask incorrectly, or not wearing.
 
+Final LB Board: `14/48`
+
 > ## Data
 
 - Number of people: `4500`
