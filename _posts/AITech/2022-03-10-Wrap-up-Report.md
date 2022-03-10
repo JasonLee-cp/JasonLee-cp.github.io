@@ -9,7 +9,7 @@ tag: [boostcamp, python]
 
 Covid19 has been increasingly contagious all around the globe. The most crucial thing to prevent the spread is to wear mask. However, it's hard to make sure that people are correctly wearing mask correctly. Therefore, we need a system to classify whether a person wears mask correctly, wears mask incorrectly, or not wearing.
 
-Final LB Board: `14/48`
+Final LB Board Placement: `14th/48`
 
 > ## Data
 
@@ -134,7 +134,7 @@ Also, one idea came up to my mind that we usually take `argmax` to determine the
 
 The above picture shows prediction probabilities for `class 1` or `60~ age`. Although predicted as class 1, the assigned probabilities must give some useful information since it tells us how **confident** the model predicts a certain class. I tried with different thresholds and `0.08` or `8%` seemed to work the best. In other words, if the predicted probability for class 1 is greater than 0.08, then it's always predicted as class 1.
 
-This method achieve the highest performance among our team.
+This method achieved the highest performance among our team.
 
 > ## Things to Try
 
