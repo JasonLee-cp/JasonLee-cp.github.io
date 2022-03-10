@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "PStage1 - Covid-19 Mask/Age/Gender Classification"
+title: "[AITECH] PStage1 - Covid-19 Mask/Age/Gender Classification"
 categories: ["AITech"]
 tag: [boostcamp, python]
 ---
