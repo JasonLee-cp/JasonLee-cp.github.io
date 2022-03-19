@@ -3,6 +3,10 @@ layout: null
 title: "[Statistics] Sigmoid and Softplus"
 categories: ["statistics"]
 tag: [math]
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
 ---
 
 > ## Logistic Sigmoid

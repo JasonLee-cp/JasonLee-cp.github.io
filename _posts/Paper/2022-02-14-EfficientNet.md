@@ -6,6 +6,10 @@ categories: paper
 tag: [deeplearning, efficientnet]
 author_profile: true
 sidebar_main: true
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
 ---
 
 Reference: [https://arxiv.org/pdf/1905.11946.pdf](https://arxiv.org/pdf/1905.11946.pdf)  

@@ -3,6 +3,10 @@ layout: null
 title: "[Statistics] Conditional Probability and Independence"
 categories: ["statistics"]
 tag: [math]
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
 ---
 
 > ## Conditional Probability

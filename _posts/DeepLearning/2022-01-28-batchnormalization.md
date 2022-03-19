@@ -3,6 +3,10 @@ layout: single
 title: "[DL] Batch Normalization"
 categories: ["deeplearning"]
 tag: [deeplearning, batch-normalization]
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
 ---
 
 Deep Neural Networks might face a variety of problems, for example, gradient vanishing/exploding. As the network gets deeper and deeper, it becomes harder to train on.

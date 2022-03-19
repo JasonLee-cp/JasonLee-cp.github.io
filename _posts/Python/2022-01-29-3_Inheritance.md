@@ -5,6 +5,10 @@ categories: ["Python"]
 tag: [oop, inheritance, python]
 author_profile: true
 sidebar_main: true
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
 ---
 
 ## `Inheritance`

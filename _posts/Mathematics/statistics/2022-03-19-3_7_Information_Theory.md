@@ -3,6 +3,10 @@ layout: null
 title: "[Information Theory] Shannon Entropy, Cross Entropy, and Kullback-Leibler(KL) Divergence"
 categories: ["statistics"]
 tag: [informationtheory]
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
 ---
 
 > ## Information Theory
