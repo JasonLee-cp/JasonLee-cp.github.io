@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Paper] Complete Explanation of Swin Transformer with Full Implementation"
+title: "[Paper] Complete Explanation of Swin Transformer with Full PyTorch Implementation"
 categories: paper
 tag: [deeplearning, swin-transformer, transformer]
 author_profile: true
