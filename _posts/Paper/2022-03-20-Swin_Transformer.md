@@ -533,8 +533,8 @@ You can find the full implemention in https://github.com/JasonLee-cp/pytorch/blo
 
 > ## References
 
-[1] ![https://arxiv.org/pdf/2103.14030.pdf](https://arxiv.org/pdf/2103.14030.pdf)  
-[2] ![https://github.com/microsoft/Swin-Transformer](https://arxiv.org/pdf/2103.14030.pdf)  
-[3] ![https://towardsdatascience.com/swin-vision-transformers-hacking-the-human-eye-4223ba9764c3](https://arxiv.org/pdf/2103.14030.pdf)  
-[4] ![https://www.youtube.com/watch?v=2lZvuU_IIMA](https://arxiv.org/pdf/2103.14030.pdf)  
-[5] ![https://www.youtube.com/watch?v=SndHALawoag](https://arxiv.org/pdf/2103.14030.pdf
+[1] [https://arxiv.org/pdf/2103.14030.pdf](https://arxiv.org/pdf/2103.14030.pdf)  
+[2] [https://github.com/microsoft/Swin-Transformer](https://arxiv.org/pdf/2103.14030.pdf)  
+[3] [https://towardsdatascience.com/swin-vision-transformers-hacking-the-human-eye-4223ba9764c3](https://arxiv.org/pdf/2103.14030.pdf)  
+[4] [https://www.youtube.com/watch?v=2lZvuU_IIMA](https://arxiv.org/pdf/2103.14030.pdf)  
+[5] [https://www.youtube.com/watch?v=SndHALawoag](https://arxiv.org/pdf/2103.14030.pdf)
