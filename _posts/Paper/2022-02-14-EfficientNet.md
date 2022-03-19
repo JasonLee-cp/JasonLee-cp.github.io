@@ -27,7 +27,7 @@ As above, traditionally, only one of the three dimensions - depth, width, and re
 
 The author asks:
 
-> ### Is there a principled way of scaling up network to achieve better **accuracy** and **efficiency**?
+### Is there a principled way of scaling up network to achieve better **accuracy** and **efficiency**?
 
 The empirical studies observe that it's critical to balance all dimensions of network width/depth/resolution rather than just one. The author proposes that this balancing could be achieved by a simple and effective method called **compound scaling method** which uniformly scales each with constant ratio.
 
