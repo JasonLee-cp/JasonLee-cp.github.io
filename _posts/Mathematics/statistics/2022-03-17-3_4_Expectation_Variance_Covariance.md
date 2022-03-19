@@ -7,6 +7,7 @@ tag: [math]
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: true
 ---
 
 > ## Expectation
