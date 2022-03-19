@@ -4,7 +4,7 @@ import os
 list_files = os.listdir()
 print(list_files)
 for fname in list_files:
-    if not fname.endswith('.md'):
+    if not fname.endswith('.md') or not fname.startswith('2022-'):
         continue
     contents = ""
 

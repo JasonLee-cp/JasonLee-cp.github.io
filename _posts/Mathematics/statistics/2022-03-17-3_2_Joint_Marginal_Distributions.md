@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: null
 title: "[Statistics] Joint & Marginal Distributions"
 categories: ["statistics"]
 tag: [math]

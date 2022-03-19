@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: null
 title: "[Statistics] Conditional Probability and Independence"
 categories: ["statistics"]
 tag: [math]

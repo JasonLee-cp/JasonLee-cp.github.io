@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: null
 title: "[Statistics] Expectation, Variance, and Covariance"
 categories: ["statistics"]
 tag: [math]

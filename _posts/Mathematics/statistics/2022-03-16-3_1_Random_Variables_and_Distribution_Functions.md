@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: null
 title: "[Statistics] Random variables and distribution functions"
 categories: ["statistics"]
 tag: [math]
