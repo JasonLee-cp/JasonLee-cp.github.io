@@ -7,6 +7,7 @@ tag: [boostcamp, python]
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
+
 ---
 
 > # Pstage 1 Wrap-up Report
