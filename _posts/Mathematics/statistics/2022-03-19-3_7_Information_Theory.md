@@ -47,7 +47,7 @@ What about the case you want to measure **how different two distributions are**?
 
 \[[ D\_{KL}(P\|\|Q) = \mathbb{E}\_{X \sim P} \left[ log\frac{P(x)}{Q(x)} \right] = \mathbb{E}\_{X \sim P}[ \log P(x) - \log Q(x) ] \]]
 
-One useful property of KL divergence is that it's **non-negative**. The KL divergence is $0$ if and only if the two distributions $P$ and $Q$ are the same in discrete case and equal "almost everywhere" in continuous case. The KL divergence is often regarded as **distance** between the two distributions although it's not a true distance because it's not symmetric: $D\_{KL}{P\|\|Q} \neq D\_{KL}(Q\|\|P)$ for some $P$ and $Q$.
+One useful property of KL divergence is that it's **non-negative**. The KL divergence is $0$ if and only if the two distributions $P$ and $Q$ are the same in discrete case and equal "almost everywhere" in continuous case. The KL divergence is often regarded as **distance** between the two distributions although it's not a true distance because it's not symmetric: $D\_{KL}(P\|\|Q) \neq D\_{KL}(Q\|\|P)$ for some $P$ and $Q$.
 
 > ## Cross-Entropy
 
