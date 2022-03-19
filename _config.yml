@@ -18,8 +18,8 @@ minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon
 locale: "en-US"
 title: "noisrucer"
 title_separator: "-"
-# subtitle: "Changjin Lee" # site tagline that appears below site title in masthead
-name: "Changjin"
+subtitle: "What are you waiting for?" # site tagline that appears below site title in masthead
+name: "Changjin Lee"
 description: "blog"
 url: "https://JasonLee-cp.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
