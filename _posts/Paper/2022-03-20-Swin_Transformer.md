@@ -20,7 +20,7 @@ Challenges to apply Transformer from NLP to computer vision tasks comes from the
 
 The authors suggest that Swin Transformer could be potentially used as a general-purpose **backbone** for computer vision.
 
-**[Note]** In this post, we'll go over the fundamental concepts of Swin Transformer without the full explanation of implementation details (Although some provided). In the other post, detailed implementation guides are provided (check out the link in the bottom). The implementation is from the [official PyTorch Implementation](https://github.com/microsoft/Swin-Transformer) with some modifications and very detailed comments.
+**[Note]** The implementation is from the [official PyTorch Implementation](https://github.com/microsoft/Swin-Transformer) with some modifications and very detailed comments.
 
 > ## Hierarchical Feature Maps
 
