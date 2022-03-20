@@ -473,6 +473,37 @@ The below figures are illustrations of those steps with `window_size M = 3`. The
 |    _[DSBA](https://www.youtube.com/watch?v=2lZvuU_IIMA)_    |
 |                          _Fig.17_                           |
 
+```python
+# Parameter table of relative position bias: B_hat from the paper
+        # (2M-1, 2M-1, num_heads) or (2*Wh-1 * 2*W-1, num_heads)
+        self.relative_position_bias_table = nn.Parameter(
+            torch.zeros((2 * window_size[0] - 1) * (2 * window_size[1] - 1), num_heads)
+        )
+
+        # Pair-wise relative position index for each token inside the window
+        coords_h = torch.arange(self.window_size[0])
+        coords_w = torch.arange(self.window_size[1])
+        coords = torch.stack(torch.meshgrid([coords_h, coords_w])) # (2, M, M) or (2, Wh, Ww)
+        coords_flatten = torch.flatten(coords, 1) # (2, M^2)
+
+        # None is dummy dimension
+        # coords_flatten[:, :, None] = (2, M^2, 1)
+        # coords_flatten[:, None, :] = (2, 1, M^2)
+        # relative_coords = (2, M^2, M^2)
+        relative_coords = coords_flatten[:, :, None] - coords_flatten[:, None, :]
+
+        # (2, M^2, M^2) -> (M^2, M^2, 2)
+        relative_coords = relative_coords.permute(1, 2, 0).contiguous()
+        relative_coords[:, :, 0] += self.window_size[0] - 1 # make it start from 0 index
+        relative_coords[:, :, 1] += self.window_size[1] - 1
+        relative_coords[:, :, 0] *= 2 * self.window_size[1] - 1 # w.r.t x-axis
+
+        # x-axis + y-axis
+        relative_position_index = relative_coords.sum(-1) # (M^2, M^2)
+
+        self.register_buffer('relative_position_index', relative_position_index)
+```
+
 > ## Architecture Variants
 
 | ![space-1.jpg](../../assets/images/paper/swint/swint18.png) |
