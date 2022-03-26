@@ -16,14 +16,11 @@ Sometimes we need to find all the partial derivatives of a function whose input 
 
 For a function $f : \mathbb{R}^m \rightarrow \mathbb{R}^n$, the Jacobian matrix $J \in \mathbb{R}^{n \times m}$ is $J_{i,j} = \frac{\partial}{\partial x_j}f(x)_i$
 
-For $f(x1,x2, ..., x_n) = f(f_1, f_2, ..., f_m)$, the Jacobian matrix $J$ is,
+For $f(x1,x2, ..., x_n) = (f_1, f_2, ..., f_m)$, the Jacobian matrix $J$ is,
 
 \[[
 \begin{bmatrix}
-\frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \dots & \frac{\partial f_1}{\partial x_m} \\
-\frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \dots & \frac{\partial f_2}{\partial x_m} \\
-\vdots & \vdots & \ddots & \vdots \\
-\frac{\partial f_n}{\partial x_1} & \frac{\partial f_n}{\partial x_2} & \dots & \frac{\partial f_n}{\partial x_m}
+\frac{\partial f_1}{\partial x_1} & \frac{\partial f_1}{\partial x_2} & \dots & \frac{\partial f_1}{\partial x_m}\\\ \frac{\partial f_2}{\partial x_1} & \frac{\partial f_2}{\partial x_2} & \dots & \frac{\partial f_2}{\partial x_m} \\\ \vdots & \vdots & \ddots & \vdots \\\ \frac{\partial f_n}{\partial x_1} & \frac{\partial f_n}{\partial x_2} & \dots & \frac{\partial f_n}{\partial x_m}
 \end{bmatrix}
 \]]
 
