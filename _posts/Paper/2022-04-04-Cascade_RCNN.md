@@ -92,7 +92,7 @@ Before diving further, let's be clear about some notations.
 
 - `B`: Predicted **bounding box** locations
 
-(a), (b), (c) show some other architectures. Faster R-CNN produces region proposals through Regional Proposal Network (RPN) and use it's output as the input of the detection box.
+(a), (b), (c) show some other architectures. Faster R-CNN produces region proposals through Regional Proposal Network (RPN) and use it's output as the input of the detection head.
 
 | ![cutmix](../../assets/images/paper/cascade/cascade5.png) |
 | :-------------------------------------------------------: |
@@ -131,8 +131,7 @@ The left in the figure shows that the distribution of the initial hypotheses is 
 1. There's no overfitting since we have plentiful examples at each stage.
 
 2. The detectors of the deeper stages are optimized for higher IoU thresholds.
-
-At each stage $t$, the R-CNN has a **classifier** $h_t$ and a **regressor** $f_t$ optimized for **IoU thresold** $u^t$, where $u^t > u^{t-1}$. This is guaranteed by minimizng the **loss**,
+   each stage $t$, the R-CNN has a **classifier** $h_t$ and a **regressor** $f_t$ optimized for **IoU thresold** $u^t$, where $u^t > u^{t-1}$. This is guaranteed by minimizng the **loss**,
 
 \[[ L(x^t,g) = L\_{cls}(h_t(x^t),y^t) + \lambda [y^t \geq 1] L\_{loc}(f_t(x^t, b^t), g) \]]
 
