@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Paper] EfficientNet - Rethinking Model Scaling for Convolutional Neural Networks"
+title: "[Paper Review] EfficientNet - Rethinking Model Scaling for Convolutional Neural Networks"
 categories: paper
 tag: [deeplearning, efficientnet]
 author_profile: true
