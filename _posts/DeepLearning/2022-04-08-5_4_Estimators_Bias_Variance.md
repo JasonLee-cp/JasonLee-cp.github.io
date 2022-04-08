@@ -60,7 +60,7 @@ Let's see if this estimator is biased or unbiased.
 
 \[[ = \frac{1}{m} \sum\_{i=1}^m \mathbb{E} \left[ x^{(i)} \right] - \theta \]]
 
-\[[ = \frac{1}{m} \sum\_{i=1}^m \sum*{x^{(i)}}^1 \left( x^{(i)}\theta^{x^{(i)}}(1-\theta)^{(1-x^{(i)})} \right) - \theta \]]
+\[[ = \frac{1}{m} \sum\_{i=1}^m \sum_{x^{(i)}}^1 \left( x^{(i)}\theta^{x^{(i)}}(1-\theta)^{(1-x^{(i)})} \right) - \theta \]]
 
 \[[ = \frac{1}{m} \sum\_{i=1}^m (\theta) - \theta \]]
 
