@@ -4,7 +4,7 @@ import os
 list_files = os.listdir()
 print(list_files)
 for fname in list_files:
-    if not fname.endswith('.md') or not fname.startswith('2022-04-08'):
+    if not fname.endswith('.md') or not fname.startswith('2022-04-09'):
         continue
     print(fname)
     contents = ""

@@ -14,6 +14,8 @@ toc_sticky: true
 
 [Remark] It's highly recommended to first look at the [faster r-cnn paper](https://arxiv.org/abs/1506.01497) before studying cascade r-cnn.
 
+**Presentation Slides**: [https://www.slideshare.net/ZGoo/cascade-rcnn-delving-into-high-quality-object-detectionpptx](https://www.slideshare.net/ZGoo/cascade-rcnn-delving-into-high-quality-object-detectionpptx)
+
 > # Introduction
 
 In object detection, there's a tricky challenge: A detector trained with **low IoU threshold** (ex. `0.5`) usually produces noisy detections and a detector trained with **high IoU threshold** (ex. `0.7`) shows degraded performance.
