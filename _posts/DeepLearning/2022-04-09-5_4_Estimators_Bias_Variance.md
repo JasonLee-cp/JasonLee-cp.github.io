@@ -115,7 +115,7 @@ Since the bias is non-zero, the sample mean is a **biased estimator** of the var
 
 Instead, let's consider the estimator,
 
-\[[ \tilde{\sigma}_m^2 = \frac{1}{m-1} \sum_{i=1}^m \left( x^{(i)} - \hat{\mu}_m \right)^2 \]]
+\[[ \tilde{\sigma}\_m^2 = \frac{1}{m-1} \sum\_{i=1}^m \left( x^{(i)} - \hat{\mu}\_m \right)^2 \]]
 
 Then,
 
