@@ -14,11 +14,11 @@ toc_sticky: true
 
 ## Likelihood Function
 
-In the last post [link](https://jasonlee-cp.github.io/deeplearning/5_4_Estimators_Bias_Variance/), we've seen common estimators and some of their properties. But, how do we sysmematically choose **good estimators** for desired estimates? We need a principle from which we can derive specific functions that are good estimators for different models.
+In the last post [link](https://jasonlee-cp.github.io/deeplearning/5_4_Estimators_Bias_Variance/), we've seen common estimators and some of their properties. But, how do we systematically choose **good estimators** for desired estimates? We need a principle from which we can derive specific functions that are good estimators for different models.
 
 The most popular such principle is the **maximum likelihood principle**.
 
-Consider a set of $m$ examples $\mathbb{X} = \{ x^{(1)},...,x^{(m)} \}$ drawn **independently** from the true but **unknown** data-generating distribution $p_{data}(x)$. Also, let $p_model(x;\theta)$ be a parametric family of probability distributions over the same spaced indexed by $\theta$ so that $p_{model}(x;\theta)$ **maps** any configuration $x$ to a real number **estimating the true probability** $p_{data}(x)$.
+Consider a set of $m$ examples $\mathbb{X} = \{ x^{(1)},...,x^{(m)} \}$ drawn **independently** from the true but **unknown** data-generating distribution $p_{data}(x)$. Also, let $p_{model}(x;\theta)$ be a parametric family of probability distributions over the same spaced indexed by $\theta$ so that $p_{model}(x;\theta)$ **maps** any configuration $x$ to a real number **estimating the true probability** $p_{data}(x)$.
 
 The **likelihood function** is defined by
 
