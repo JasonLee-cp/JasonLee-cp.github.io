@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Paper Review] Cascade R-CNN: Delving into High Quality Object Detection"
+title: "[Paper] Cascade R-CNN: Delving into High Quality Object Detection"
 categories: paper
-tag: [deeplearning, FPN]
+tag: [object-detection, detector]
 author_profile: true
 sidebar_main: true
 

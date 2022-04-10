@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Paper Review] Complete Guide of Swin Transformer with Full PyTorch Implementation"
+title: "[Paper] Complete Guide of Swin Transformer with Full PyTorch Implementation"
 categories: paper
-tag: [deeplearning, swin-transformer, transformer]
+tag: [object-detection, transformer, backbone]
 author_profile: true
 sidebar_main: true
 
