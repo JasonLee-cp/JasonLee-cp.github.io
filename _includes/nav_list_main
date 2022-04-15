@@ -54,18 +54,26 @@
         <span class="nav__sub-title">Mathematics</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "linearalgebra" %}
-                        <li><a href="/categories/linearalgebra" class="">Linear Algebra ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "statistics" %}
                         <li><a href="/categories/statistics" class="">Statistics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "calculus" %}
+                        <li><a href="/categories/calculus" class="">Multivariate Calculus ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "linearalgebra" %}
+                        <li><a href="/categories/linearalgebra" class="">Linear Algebra ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
         <span class="nav__sub-title">Algorithm</span>
             <ul>
                 {% for category in site.categories %}
