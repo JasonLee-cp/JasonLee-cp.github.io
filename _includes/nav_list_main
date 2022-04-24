@@ -181,6 +181,15 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">Others</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "gre" %}
+                        <li><a href="/categories/gre" class="">GRE ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
       </li>
   </ul>
 </nav>
