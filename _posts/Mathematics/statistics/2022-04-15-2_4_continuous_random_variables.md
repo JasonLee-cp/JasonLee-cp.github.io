@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] Continuous Random Variable and Important Distributions"
+title: "[Statistics] 2.4 Continuous Random Variable and Important Distributions"
 categories: ["statistics"]
 tag: []
 

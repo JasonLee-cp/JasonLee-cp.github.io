@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] Multivariate Distributions and IID Samples"
+title: "[Statistics] 2.9 Multivariate Distributions and IID Samples"
 categories: ["statistics"]
 tag: [math]
 

@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] Conditional Distributions"
+title: "[Statistics] 2.8 Conditional Distributions"
 categories: ["statistics"]
 tag: []
 

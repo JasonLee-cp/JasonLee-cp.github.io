@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] Bivariate distributions and Marginal Distributions"
+title: "[Statistics] 2.5-6 Bivariate distributions and Marginal Distributions"
 categories: ["statistics"]
 tag: []
 

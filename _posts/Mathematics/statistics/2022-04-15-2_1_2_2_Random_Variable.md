@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] Random Variable"
+title: "[Statistics] 2.1-2 Random Variable"
 categories: ["statistics"]
 tag: []
 

@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] Independent Random Variables"
+title: "[Statistics] 2.7 Independent Random Variables"
 categories: ["statistics"]
 tag: []
 

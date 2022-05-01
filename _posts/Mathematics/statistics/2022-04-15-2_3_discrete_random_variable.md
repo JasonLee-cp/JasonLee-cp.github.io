@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] Discrete Random Variable and Important Distributions"
+title: "[Statistics] 2.3 Discrete Random Variable and Important Distributions"
 categories: ["statistics"]
 tag: []
 
