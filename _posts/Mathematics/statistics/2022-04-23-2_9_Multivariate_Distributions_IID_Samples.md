@@ -2,7 +2,7 @@
 layout: null
 title: "[Statistics] 2.9 Multivariate Distributions and IID Samples"
 categories: ["statistics"]
-tag: [math]
+tag: []
 
 toc: true
 toc_label: "Table of Contents"
