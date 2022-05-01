@@ -126,7 +126,7 @@ Also, let $a_1x_1+a_2x_2+ \cdots + a_nx_n = T$.
 
 Hence,
 
-\[[ \frac{\partial^2 u}{\partial x_1^2} + \frac{\partial^2 u}{\partial x_2^2} + \cdots + \frac{\partial^2 u}{\partial x_n^2}  = u(a_1^2 + a_2^2 + \cdots + a_n^2) = u \]]
+\[[ \frac{\partial^2 u}{\partial x_1^2} + \frac{\partial^2 u}{\partial x_2^2} + \cdots + \frac{\partial^2 u}{\partial x_n^2} = u(a_1^2 + a_2^2 + \cdots + a_n^2) = u \]]
 
 ## Q97
 

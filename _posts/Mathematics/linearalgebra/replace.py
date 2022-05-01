@@ -1,11 +1,10 @@
-
 import re
 import os
 
 list_files = os.listdir()
 print(list_files)
 for fname in list_files:
-    if not fname.endswith('.md') or not fname.startswith('2022-04-24'):
+    if not fname.endswith('.md') or not fname.startswith('2022-04-30'):
         continue
     contents = ""
 
@@ -21,7 +20,16 @@ for fname in list_files:
                 o = re.sub("\$\$", "\[[ ", x.string, 1)
                 o = re.sub("\$\$", " \]]", o, 1)
                 line = o
-                
+            
+            y1 = re.search('\.\./Images', line)
+            if y1:
+                o = re.sub('\.\./Images', '../../../assets/images/MATH/calculus', y1.string, 1)
+                line = o
+            y2 = re.search('\.\./images', line)
+            if y2:
+                o = re.sub('\.\./images', '../../../assets/images/MATH/calculus', y2.string, 1)
+                line = o
+            
             contents += line
             
     with open(fname, 'w') as f:
