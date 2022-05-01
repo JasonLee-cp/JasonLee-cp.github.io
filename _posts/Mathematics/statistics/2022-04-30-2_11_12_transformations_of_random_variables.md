@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Statistics] 2.12 Transformations of Random Variables"
+title: "[Statistics] 2.11-12 Transformations of Random Variables"
 categories: ["statistics"]
 tag: [math]
 
