@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Linear Algbera] Length and Dot Product"
+title: "[Linear Algbera] 1.2 Length and Dot Product"
 categories: ["linearalgebra"]
 tag: []
 

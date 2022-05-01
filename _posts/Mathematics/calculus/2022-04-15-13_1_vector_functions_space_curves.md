@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Calculus] Vector Functions"
+title: "[Calculus] 13.1 Vector Functions"
 categories: ["calculus"]
 tag: [math]
 

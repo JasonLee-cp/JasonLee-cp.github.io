@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Calculus] Derivative and Integral of Vector Functions"
+title: "[Calculus] 13.2 Derivative and Integral of Vector Functions"
 categories: ["calculus"]
 tag: [math]
 

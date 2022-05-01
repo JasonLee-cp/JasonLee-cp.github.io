@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Linear Algbera] Inverse Matrices"
+title: "[Linear Algbera] 2.5 Inverse Matrices"
 categories: ["linearalgebra"]
 tag: []
 

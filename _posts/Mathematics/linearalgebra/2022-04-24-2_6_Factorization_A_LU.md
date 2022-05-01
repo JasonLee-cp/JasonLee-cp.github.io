@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Linear Algbera] Factorization A=LU"
+title: "[Linear Algbera] 2.6 Factorization A=LU"
 categories: ["linearalgebra"]
 tag: []
 
@@ -48,7 +48,7 @@ Now, to reverse $U$ back to $A$, we multiply $E_{21}^{-1}$ to get $A = E_{21}^{-
 
 \[[ E_{21}^{-1}U = A \]]
 
-\[[ E_{21}^{-1}U = \begin{bmatrix} 1 & 0 \\\ 3 & 1\end{bmatrix}\begin{bmatrix} 2 & 1 \\\ 0 & 5 \end{bmatrix} =  \begin{bmatrix} 2 & 1 \\\ 6 & 8 \end{bmatrix} = A \]]
+\[[ E_{21}^{-1}U = \begin{bmatrix} 1 & 0 \\\ 3 & 1\end{bmatrix}\begin{bmatrix} 2 & 1 \\\ 0 & 5 \end{bmatrix} = \begin{bmatrix} 2 & 1 \\\ 6 & 8 \end{bmatrix} = A \]]
 
 The second equation is our factorization $A = LU$. Instead of $E_{21}^{-1}$ **we write** $L$. So $L$ is just the **inverse** of the elimination matrix $E$.
 

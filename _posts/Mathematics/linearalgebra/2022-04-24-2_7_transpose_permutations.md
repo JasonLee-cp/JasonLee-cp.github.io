@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Linear Algbera] Transpose and Permutation"
+title: "[Linear Algbera] 2.7 Transpose and Permutation"
 categories: ["linearalgebra"]
 tag: []
 

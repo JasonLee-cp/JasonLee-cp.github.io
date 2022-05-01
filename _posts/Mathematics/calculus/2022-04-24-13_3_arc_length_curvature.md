@@ -1,6 +1,6 @@
 ---
 layout: null
-title: "[Calculus] Arg Length and Curvature"
+title: "[Calculus] 13.3 Arg Length and Curvature"
 categories: ["calculus"]
 tag: []
 
@@ -32,7 +32,7 @@ where $r'$ is continuous and $C$ is traversed exactly once as $t$ increases from
 
 $s(t)$ is the length of the part of $C$ between $r(a)$ and $r(t)$. Using the Fundamental Theorem of Calculus, we get
 
-\[[ \frac{ds}{dt} = \lvert r'(t) \rvert  \]]
+\[[ \frac{ds}{dt} = \lvert r'(t) \rvert \]]
 
 It's often useful to **parametrize a curve w.r.t arc length** instead of $t$. With $r(t)$ and $s(t)$, we may be able to solve for $t$ as a function of $s$: $t = t(s)$. Then, $C$ can be reparametrized in terms of $s$ by substituting for $t$: $r = r(t(s))$ .
 
@@ -125,7 +125,7 @@ The plane determined by the vectors $T$ and $N$ is called the **osculating plane
 
 \[[ s(t) = \int_a^t \lvert r'(u) \rvert du \]]
 
-\[[ \frac{ds}{dt} = \lvert r'(t) \rvert  \]]
+\[[ \frac{ds}{dt} = \lvert r'(t) \rvert \]]
 
 ## Curvature
 
