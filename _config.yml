@@ -21,7 +21,7 @@ title_separator: "-"
 subtitle: "What are you waiting for?" # site tagline that appears below site title in masthead
 name: "Changjin Lee"
 description: "blog"
-url: "https://JasonLee-cp.github.io"
+url: "https://noisrucer.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
