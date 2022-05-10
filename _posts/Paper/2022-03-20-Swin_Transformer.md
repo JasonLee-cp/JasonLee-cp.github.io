@@ -560,7 +560,7 @@ where `C` is the channel number of the hidden layers in the first stage.
 
 > ## Full PyTorch Implementation
 
-You can find the full implemention in https://github.com/JasonLee-cp/pytorch/blob/main/transformers/swin_transformer.ipynb This is based on the official implementation you can find in References [2]. I've added detailed comments and made some modifications to make it easier to understand. I'm planning to make another posting giving detailed implementation guides soon.
+You can find the full implemention in [https://github.com/noisrucer/deep-learning-papers/blob/master/Swin-Transformer/code/swin_transformer.ipynb](https://github.com/noisrucer/deep-learning-papers/blob/master/Swin-Transformer/code/swin_transformer.ipynb) This is based on the official implementation you can find in References [2]. I've added detailed comments and made some modifications to make it easier to understand. I'm planning to make another posting giving detailed implementation guides soon.
 
 > ## References
 
