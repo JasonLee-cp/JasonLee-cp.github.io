@@ -4,7 +4,7 @@ import os
 list_files = os.listdir()
 print(list_files)
 for fname in list_files:
-    if not fname.endswith('.md') or not fname.startswith('2022-05-02'):
+    if not fname.endswith('.md') or not fname.startswith('2022-05-13'):
         continue
     contents = ""
 
@@ -21,13 +21,13 @@ for fname in list_files:
                 o = re.sub("\$\$", " \]]", o, 1)
                 line = o
             
-            y1 = re.search('\./Images', line)
+            y1 = re.search('\.\./Images', line)
             if y1:
-                o = re.sub('\./Images', '../../assets/images/paper/vit', y1.string, 1)
+                o = re.sub('\.\./Images', '../../assets/images/paper/yolov2', y1.string, 1)
                 line = o
-            y2 = re.search('\./images', line)
+            y2 = re.search('\.\./images', line)
             if y2:
-                o = re.sub('\./images', '../../assets/images/paper/vit', y2.string, 1)
+                o = re.sub('\.\./images', '../../assets/images/paper/yolov2', y2.string, 1)
                 line = o
             
             contents += line
