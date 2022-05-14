@@ -20,7 +20,7 @@ toc_sticky: true
 
 **[4]** The **Gram-Schmidt** process takes independent $a_i$ to orthonormal $q_i$. Start with $q_1 = \frac{a_1}{\lVert a_1 \rVert}$
 
-**[5]** $q_i$ is (a*i - projection p_i) / $\lVert a_i - p_i \rVert$; projection $p_i = (a_i^Tq_1)q_1 + \cdots + (a_i^Tq*{i-1})q\_{i-1}$
+**[5]** $q_i$ is $(a*i - projection p_i) / \lVert a_i - p_i \rVert$; projection $p_i = (a_i^Tq_1)q_1 + \cdots + (a_i^Tq*{i-1})q\_{i-1}$
 
 **[6]** Each $a_i$ will be combination of $q_1$ to $q_i$. Then $A=QR$: orthogonal $Q$ and triangular $R$.
 
