@@ -12,7 +12,7 @@ toc_sticky: true
 
 > # Keywords
 
-**[1]** $A^{-1} = \frac{C^T}{det(A)}$. Then, $(A^{-1})_{ij}=$ cofactor $C_{ji}$ divided by the determinant of $A$
+**[1]** $A^{-1} = \frac{C^T}{det(A)}$. Then, $(A^{-1})\_{ij}=$ cofactor $C\_{ji}$ divided by the determinant of $A$
 
 **[2]** **Cramer's Rule** computes $x=A^{-1}b$ from $x_j=det(A\ \text{with column}\ j\ \text{changed to}\ b)\ /\ det(A)$
 
