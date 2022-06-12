@@ -2,7 +2,7 @@
 layout: single
 title: "[Paper] EfficientNet - Rethinking Model Scaling for Convolutional Neural Networks"
 categories: paper
-tag: [efficientnet, backbone]
+tag: [backbone]
 author_profile: true
 sidebar_main: true
 

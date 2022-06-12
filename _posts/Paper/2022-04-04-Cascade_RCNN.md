@@ -2,7 +2,7 @@
 layout: single
 title: "[Paper] Cascade R-CNN: Delving into High Quality Object Detection"
 categories: paper
-tag: [object-detection, detector]
+tag: [object-detection]
 author_profile: true
 sidebar_main: true
 

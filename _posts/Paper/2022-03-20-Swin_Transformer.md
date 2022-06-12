@@ -2,7 +2,7 @@
 layout: single
 title: "[Paper] Complete Guide of Swin Transformer with Full PyTorch Implementation"
 categories: paper
-tag: [object-detection, transformer, backbone]
+tag: [transformer]
 author_profile: true
 sidebar_main: true
 
