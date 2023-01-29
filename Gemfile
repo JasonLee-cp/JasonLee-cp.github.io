@@ -1,4 +1,8 @@
 source "https://rubygems.org"
-gem 'http_parser.rb' 
-gemspec
-gem "webrick", "~> 1.7"
+
+gem "jekyll", "~> 3.4"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-feed", "~> 0.9"
+gem "jekyll-sitemap", "~> 1.0"
+gem "jekyll-redirect-from", "~> 0.12"
+gem "classifier-reborn"

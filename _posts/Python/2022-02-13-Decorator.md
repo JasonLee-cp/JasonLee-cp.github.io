@@ -1,15 +1,10 @@
 ---
-layout: single
+layout: post
 title: "[Python] Decorator"
-categories: ["Python"]
-tag: [decorator]
-author_profile: true
-sidebar_main: true
-
-toc: true
-toc_label: "Table of Contents"
-toc_icon: "align-justify" # corresponding Font Awesome icon name (without fa prefix)
-toc_sticky: true
+subtitle: "modern javascript, 생성자 new"
+categories: python
+tags:
+comments:
 ---
 
 > # Decorator

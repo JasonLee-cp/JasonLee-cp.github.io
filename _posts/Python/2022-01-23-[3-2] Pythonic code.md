@@ -1,10 +1,10 @@
 ---
-layout: single
+layout: post
 title: "[Python] Pythonic Code"
-categories: Python
-tag: [python]
-author_profile: true
-sidebar_main: true
+subtitle: "modern javascript, 생성자 new"
+categories: python
+tags:
+comments:
 ---
 
 <head>
