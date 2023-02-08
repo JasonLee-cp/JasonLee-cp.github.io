@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Projects
-slug: projects
-menu: false
+title: Project
+slug: project
+menu: true
 submenu: false
 order: 1
 description: >
-  Project playground
+  Here goes my posts related to personal projects
 ---

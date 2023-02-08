@@ -13,7 +13,7 @@ url: https://noisrucer.github.io
 baseurl: ""
 
 # A very short description of your page
-tagline: Im a devv
+tagline: Data enthusiast
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
@@ -27,7 +27,7 @@ author:
   email: changjin9792@gmail.com
 
 # Fallback image and color
-image: /assets/img/nap.jpg
+image:
 color: "#4f86aa"
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
@@ -45,13 +45,13 @@ google_fonts: Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics: UA-92346434-1
+google_analytics: G-C3ZFDBS68L
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname: isme2n
+disqus_shortname: noisrucer
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright: "&copy; 2022. by noisrucer"
+copyright: "&copy; 2023. by noisrucer"
 
 # Format of the permalinks
 permalink: pretty

@@ -15,8 +15,6 @@ comments:
 
 ## Primitive data types
 
-![abcde](/Users/jasonlee/Desktop/noisrucervlog.github.io/assets/img/cj.jpg)
-
 #### Dynamic Typing: declare data type during execution
 
 ```python

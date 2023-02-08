@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Project
-slug: project
+title: AI
+slug: ai
 menu: true
-submenu: false
-order: 4
+submenu: true
+order: 5
 description: >
-  평소 생각과 쓰고싶은 글을 씁니다.
+  I write posts about projects and paper reviews related to AI.
 ---
