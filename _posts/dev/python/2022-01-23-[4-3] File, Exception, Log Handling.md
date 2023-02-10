@@ -2,8 +2,8 @@
 layout: post
 title: "[Python] File / Exception / Logging"
 subtitle: "modern javascript, 생성자 new"
-categories: python
-tags:
+categories: dev
+tags: python
 comments:
 ---
 
