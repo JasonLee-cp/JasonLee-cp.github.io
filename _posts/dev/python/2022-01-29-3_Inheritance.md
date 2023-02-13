@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] OOP: Inheritance"
+title: "OOP: Inheritance"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

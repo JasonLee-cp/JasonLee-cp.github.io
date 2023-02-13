@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Namespace and Scope"
+title: "Namespace and Scope"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

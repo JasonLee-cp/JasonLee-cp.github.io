@@ -2,8 +2,8 @@
 layout: post
 title: "How to model composite course pre-requisites in database?"
 subtitle: ""
-categories: project
-tags:
+categories: dev
+tags: database
 comments:
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Strings / Advanced Functions"
+title: "Strings / Advanced Functions"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

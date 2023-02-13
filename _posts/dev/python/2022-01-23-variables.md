@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Variables"
+title: "Python Variables"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

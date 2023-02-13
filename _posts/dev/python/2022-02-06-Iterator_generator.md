@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] What really is the iterator and generator?"
+title: "What really is the iterator and generator?"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

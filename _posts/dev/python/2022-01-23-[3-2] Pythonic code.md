@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Pythonic Code"
+title: "Pythonic Code"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

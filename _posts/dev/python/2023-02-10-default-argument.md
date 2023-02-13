@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Default arguments - mutable/immutable"
+title: "Default arguments - mutable/immutable"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

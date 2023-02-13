@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Conditionals and Loops"
+title: "Conditionals and Loops"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

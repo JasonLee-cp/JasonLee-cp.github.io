@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Data Structures"
+title: "Data Structures"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python

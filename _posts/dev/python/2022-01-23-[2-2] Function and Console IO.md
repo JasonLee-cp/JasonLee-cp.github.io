@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Function and Console I/O"
+title: "Function and Console I/O"
 subtitle: "modern javascript, 생성자 new"
 categories: dev
 tags: python
