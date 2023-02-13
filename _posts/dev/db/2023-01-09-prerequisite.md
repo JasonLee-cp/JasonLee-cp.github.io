@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to model composite course pre-requisites in database?"
+title: "Modeling Composite Course Prerequisites in Database"
 subtitle: ""
 categories: dev
 tags: database
@@ -11,7 +11,7 @@ comments:
 
 As the competitiveness of our service is highly relevant to the objective and detailed information of a course, we wanted to also show the course **prerequisites** to users. A prerequisite course refers to a course that a student must have taken before taking a specific course. For example, `course A` might require candidates to pass in `course B and course C` in prior.
 
-At first, I thought it would be a pretty simple task. However, my school, probably similar for most other schools, has slighly more complicated prerequisites.
+At first, I thought it would be a pretty simple task. However, my school, probably similar for most other schools, has slightly more complicated prerequisites.
 
 Let's look at the Machine Learning course offered by HKU.
 
