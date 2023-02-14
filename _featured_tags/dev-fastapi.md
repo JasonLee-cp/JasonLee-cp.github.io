@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Python
-slug: python
+title: FastAPI
+slug: fastapi
 category: dev
 menu: false
-order: 1
+order: 2
 ---

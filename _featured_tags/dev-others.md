@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Python
-slug: python
+title: Others
+slug: others
 category: dev
 menu: false
-order: 1
+order: 10
 ---
