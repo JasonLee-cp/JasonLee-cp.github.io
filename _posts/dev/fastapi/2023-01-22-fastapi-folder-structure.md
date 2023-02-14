@@ -7,13 +7,6 @@ tags: fastapi
 comments:
 ---
 
-Contents
-
-1. Introduction
-2. FastAPI official documentation structure
-   - limitations
-3. New structure & rationale
-
 # Introduction
 
 When I work on projects, one of the things I spent time the most is **project code structure**. The structure dramatically impacts the readability, modularization, and redundancy of codes. In this article, I'll go over the recommended folder structure by the official FastAPI documentation and its limitations. Then, I'll introduce a more scalable and evolvable structure.
@@ -101,47 +94,47 @@ fastapi-project
 
 ## Each service owns a directory
 
-> 1. Each service such as `/src/auth` and `/src/course`.
+### 1. Each service such as `/src/auth` and `/src/course`.
 
-> 2. `router.py`: all endpoints for each service reside.
+### 2. `router.py`: all endpoints for each service reside.
 
-> 3. `schemas.py`: pydantic models
+### 3. `schemas.py`: pydantic models
 
 `/src/course/schemas.py`
 ![d](/assets/img/project/fastapistructure2.png)
 
-> 4. `models.py`: db models
+### 4. `models.py`: db models
 
 `/src/course/models.py`
 ![d](/assets/img/project/fastapistructure3.png)
 
-> 5. `dependencies.py`: service-specific dependencies are here. One example could be verifying JWT credentials.
+### 5. `dependencies.py`: service-specific dependencies are here. One example could be verifying JWT credentials.
 
 `src/dependencies.py` global dependencies
 
 ![d](/assets/img/project/fastapistructure4.png)
 
-> 6. `constants.py`: service specific constants are here. One example could be `JWTSettings` for `auth` service.
+### 6. `constants.py`: service specific constants are here. One example could be `JWTSettings` for `auth` service.
 
 `/src/course/constants.py`
 ![d](/assets/img/project/fastapistructure5.png)
 
-> 7. `enums.py`: service specific enums are here.
+### 7. `enums.py`: service specific enums are here.
 
 `/src/course/enums.py`
 ![d](/assets/img/project/fastapistructure6.png)
 
-> 8. `exceptions.py`: service specific exceptions are here.
+### 8. `exceptions.py`: service specific exceptions are here.
 
 `/src/course/exceptions.py`
 ![d](/assets/img/project/fastapistructure7.png)
 
-> 9. `service.py`: service specific business logics go here. This will interact with database.
+### 9. `service.py`: service specific business logics go here. This will interact with database.
 
 `/src/course/service.py`
 ![d](/assets/img/project/fastapistructure8.png)
 
-> 10. `utils.py`: non-business logic functions such as hashing password.
+### 10. `utils.py`: non-business logic functions such as hashing password.
 
 `/src/auth/utils.py`
 
