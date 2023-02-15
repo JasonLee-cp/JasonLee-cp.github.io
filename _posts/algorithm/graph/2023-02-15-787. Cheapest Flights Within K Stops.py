@@ -1,0 +1,19 @@
+# Bellman-Ford Algorithm
+# TC: O(n^3) worst case
+
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        # Bellman Ford
+        price = [inf for _ in range(n)]
+        temp_price = price[:]
+        price[src] = 0
+        temp_price[src] = 0
+        
+        for _ in range(k + 1):
+            
+            for u, v, w in flights:
+                if price[u] + w < temp_price[v]: # careful - must use temp_price
+                    temp_price[v] = price[u] + w
+            price = temp_price
+        
+        return price[dst] if price[dst] != inf else -1
