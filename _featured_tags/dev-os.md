@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Others
-slug: others
+title: OS
+slug: os
 category: dev
 menu: false
-order: 10
+order: 2
 ---
