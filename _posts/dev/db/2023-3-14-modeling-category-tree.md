@@ -8,6 +8,8 @@ tags: database
 comments:
 Code repository: [Github](https://github.com/noisrucer/girok)
 
+---
+
 # Introduction
 
 I've been working on a project recently to build a powerful schedule management app which saves users tremendous amount of time. It will offer a **CLI (Command Line Interface)** as well as **Web app** to quickly perform various schedule management operations.
