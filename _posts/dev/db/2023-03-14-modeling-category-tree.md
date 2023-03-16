@@ -1,13 +1,10 @@
 ---
-
 layout: post
 title: "Modeling Hierarchical Directory Tree with FastAPI and SQLAlchemy (Visualize with Typer & Rich library)"
 subtitle: ""
 categories: dev
 tags: database
 comments:
-Code repository: [Github](https://github.com/noisrucer/girok)
-
 ---
 
 # Introduction
