@@ -302,4 +302,4 @@ Let's test it.
 
 What's the point if we don't publish our app so that other people could download it?
 
-Visit **LINK** for a detailed guide to publish CLI apps.
+Visit [the article](https://noisrucer.github.io/dev/2023/03/19/distribute-pypi/) for a detailed guide to publish CLI apps.

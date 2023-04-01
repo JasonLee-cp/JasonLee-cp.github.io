@@ -7,7 +7,7 @@ tags: deployment
 comments:
 ---
 
-In the last post --LINK--, we uploaded our simple FastAPI server container image to ECR.
+In the [last post](https://noisrucer.github.io/dev/2023/03/27/upload-ecr/), we uploaded our simple FastAPI server container image to ECR.
 
 In this article, we'll deploy our server on ECS Fargate so that you can access from anywhere around the world!
 
@@ -160,4 +160,4 @@ Congratulation! You can see that our server is successfully running.
 
 # 5. Conclusion
 
-In the next article, I'll go over how to inject <span style="background:#fff88f">environment variables</span> into the container using <span style="background:#fff88f">AWS Systems Manager Parameter Store</span>.
+In the [next article](https://noisrucer.github.io/dev/2023/03/29/inject-env/), I'll go over how to inject <span style="background:#fff88f">environment variables</span> into the container using <span style="background:#fff88f">AWS Systems Manager Parameter Store</span>.

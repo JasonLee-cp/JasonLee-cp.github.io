@@ -9,7 +9,7 @@ comments:
 
 # 1. Introduction
 
-In the last post --LINK--, we dockerized our FastAPI project and ran it locally.
+In the [last post](https://noisrucer.github.io/dev/2023/03/25/dockerize/), we dockerized our FastAPI project and ran it locally.
 
 In this article, we'll upload our container to AWS ECR (Elastic Container Registry) which is a registry for container images like Docker Hub. Then, we will deploy our server ECS.
 

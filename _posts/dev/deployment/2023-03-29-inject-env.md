@@ -9,7 +9,7 @@ comments:
 
 # 1. Introduction
 
-In the previous articles, --LINK--we created a docker image of a simple FastAPI project and --LINK--deployed it to AWS ECS Fargate.
+In the previous articles, [we created a docker image of a simple FastAPI project](https://noisrucer.github.io/dev/2023/03/25/dockerize/) and [deployed it to AWS ECS Fargate](https://noisrucer.github.io/dev/2023/03/28/deploy-ecs/).
 
 Most of the times, we deal with environment variables such as database connection info or some other 3rd-party API secret keys.
 In this article, we'll talk about how we can manage environment variables in AWS server.
@@ -109,7 +109,7 @@ Now you can see that our env variable is created in the parameter store.
 
 To use the AWS Systems Manager Parameter Store in your ECS service, you must have the ECS task execution role and reference it in your task definition.
 
-Notice that in the task definition we created in --LINK-- the previous article, you can find that the "<span style="background:#fff88f">Task execution role</span>" is referencing `ecsTaskExecutionRole`.
+Notice that in the task definition we created in the [previous article](https://noisrucer.github.io/dev/2023/03/28/deploy-ecs/), you can find that the "<span style="background:#fff88f">Task execution role</span>" is referencing `ecsTaskExecutionRole`.
 
 ![](/assets/img/temp/Pasted%20image%2020230331133827.png)
 
