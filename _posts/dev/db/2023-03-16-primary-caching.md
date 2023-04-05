@@ -7,6 +7,12 @@ tags: database
 comments:
 ---
 
+- Introduction
+- Challenge Encountered
+- Solution - locally cache latest query result
+
+---
+
 # 1. Introduction
 
 [Girok](https://github.com/noisrucer/girok) offers a set of operations to query your tasks effectively.

@@ -7,6 +7,13 @@ tags: deployment
 comments:
 ---
 
+1. Create an ALB
+2. Create a task definition
+3. Create a service
+4. Conclusion
+
+---
+
 In the [last post](https://noisrucer.github.io/dev/2023/03/27/upload-ecr/), we uploaded our simple FastAPI server container image to ECR.
 
 In this article, we'll deploy our server on ECS Fargate so that you can access from anywhere around the world!

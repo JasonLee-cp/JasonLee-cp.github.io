@@ -7,6 +7,17 @@ tags: deployment
 comments:
 ---
 
+1. Introduction
+2. Modify source code
+3. Approach #1 - env var as arguments
+4. Approach #2 - env var as a file
+5. Approach #3 - AWS SSM Parameter Store
+6. IAM access key
+7. New task definition
+8. Update service
+
+---
+
 # 1. Introduction
 
 In the previous articles, [we created a docker image of a simple FastAPI project](https://noisrucer.github.io/dev/2023/03/25/dockerize/) and [deployed it to AWS ECS Fargate](https://noisrucer.github.io/dev/2023/03/28/deploy-ecs/).

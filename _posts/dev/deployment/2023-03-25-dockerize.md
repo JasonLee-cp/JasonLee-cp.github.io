@@ -7,6 +7,16 @@ tags: deployment
 comments:
 ---
 
+1. Introduction
+2. What is container?
+3. What is an image?
+4. Demo FastAPI Project
+5. Write Dockerfile
+6. Build the Docker image
+7. Execute a Docker container
+
+---
+
 # 1. Introduction
 
 To deploy a FastAPI project, one common way is to use **docker** to build a **container image**.
@@ -24,7 +34,7 @@ As the name "container" suggests, a (linux) container is like a bucket to packag
 
 Unlike **virtualization** that virtualizes the entire machine including the OS levels, containers, running with isolated processes, do not create another set of hardware resources but share the same Linux kernel. Hence, containers are much more **lightweight** compared to virtual machines.
 
-# 3.What is a Container Image?
+# 3. What is a Container Image?
 
 As the name suggests, a container image is like a "snapshot" or a specific version of all the files, dependencies, env variables, etc. Thus, a container image is **static** that is not something you can execute.
 

@@ -7,6 +7,16 @@ tags: database
 comments:
 ---
 
+1. Introduction
+2. Show Category
+3. Add Category
+4. Remove Category
+5. Move Category
+6. Modeling self-referential relationship
+7. Visualize tree with Rich
+
+---
+
 # Introduction
 
 I've been working on a project recently to build a powerful schedule management app which saves users tremendous amount of time. It will offer a **CLI (Command Line Interface)** as well as **Web app** to quickly perform various schedule management operations.

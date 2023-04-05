@@ -7,6 +7,13 @@ tags: deployment
 comments:
 ---
 
+1. Introduction
+2. Create an IAM user
+3. Create an ECR repository
+4. Upload our image to ECR repository
+
+---
+
 # 1. Introduction
 
 In the [last post](https://noisrucer.github.io/dev/2023/03/25/dockerize/), we dockerized our FastAPI project and ran it locally.

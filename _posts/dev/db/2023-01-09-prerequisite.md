@@ -7,6 +7,13 @@ tags: database
 comments:
 ---
 
+1. Introduction
+2. Simple pre-requisites
+3. Modeling more complicated pre-requisites
+4. Application in the project
+
+---
+
 ## Introduction
 
 As the competitiveness of our service is highly relevant to the objective and detailed information of a course, we wanted to also show the course **prerequisites** to users. A prerequisite course refers to a course that a student must have taken before taking a specific course. For example, `course A` might require candidates to pass in `course B and course C` in prior.

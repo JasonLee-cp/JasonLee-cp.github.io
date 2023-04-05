@@ -7,6 +7,13 @@ tags: python
 comments:
 ---
 
+1. Introduction
+2. Scenario
+3. Closure
+4. Implement mutually exclusive options
+
+---
+
 # 1. Introduction
 
 When I was developing [Girok](https://github.com/noisrucer/girok), I ran into a challenging task to implement <span style="background:#fff88f">mutually exclusive options</span>.

@@ -7,6 +7,17 @@ tags: python
 comments:
 ---
 
+1. Introduction
+2. Installation
+3. Our first CLI app
+4. CLI Argument and Option
+5. Command
+6. Build To-do list
+7. Bonus - separate commands into different folders
+8. Publish your app
+
+---
+
 # 1. Introduction
 
 In this article, we'll build a fully functional CLI (Command Line Interface) app with [Typer](https://typer.tiangolo.com/).

@@ -3,7 +3,7 @@ layout: post
 title: "Contemplation of designing an API consisting of a query parameter with three states"
 subtitle: ""
 categories: dev
-tags: python
+tags: fastapi
 comments:
 ---
 

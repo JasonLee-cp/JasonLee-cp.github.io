@@ -7,6 +7,20 @@ tags: python
 comments:
 ---
 
+1. Introduction
+2. Install Poetry
+3. Create a new project
+4. Install packages
+5. Build a Typer app
+6. README.md
+7. Fill out your package info
+8. Install our package to test it locally
+9. Distribute our package to PyPI
+10. Test our package with pip
+11. Update our package
+
+---
+
 ## 1. Introduction
 
 `Typer` is an amazing library that helps you build an amazing CLI app with python.
