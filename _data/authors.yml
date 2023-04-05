@@ -7,7 +7,8 @@ isme2n:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about: Hi! I'm noisrucer
+  about: |
+    Hi! I'm noisrucer
 
   # This photo will be used in the about section
   picture:
@@ -60,8 +61,8 @@ isme2n:
 
 # Another author
 mdo:
-  name: <firtname> <lastname>
-  email: <mail@domain.tld>
+  name: Changjin Lee
+  email: changjin9792@gmail.com
   about: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
