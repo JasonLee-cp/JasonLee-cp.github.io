@@ -19,17 +19,17 @@ Graph is a way of visualizing the behavior of a function of two variables.
 
 If $$f$$ is a function of two variables with domain $$D$$, then the **graph** of $$f$$ is the set of all points $$(x,y,z)$$ in $$\mathbb{R}^3$$ such that $$z=f(x,y)$$ and $$(x,y)$$ is in $$D$$
 
-| ![joint](..//assets/img/MATH/calculus/ch14_1.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch14_1.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 > # Level Curves
 
 The **level curves** of a function $$f$$ of two variables are the curves with equations $$f(x,y)=k$$, where $$k$$ is a constant (in the range of $$f$$).
 
-| ![joint](..//assets/img/MATH/calculus/ch14_2.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch14_2.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 > # References
 

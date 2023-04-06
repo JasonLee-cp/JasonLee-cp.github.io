@@ -9,9 +9,9 @@ comments:
 
 > # Double Integral of $$f$$ over $$D$$
 
-| ![joint](..//assets/img/MATH/calculus/ch15_1.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch15_1.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 Often we want to evaluate integrals not just over rectangles but also over general region $$D$$. We suppose that $$D$$ is a **bounded region** so that it can be enclosed with a rectangle as shown in the figure.
 

@@ -13,17 +13,17 @@ If $$f$$ is continuous on the rectangular box $$B = [a,b] \times [c,d] \times [r
 
 $$ \iiint_B f(x,y,z)dV = \int_r^s \int_c^d \int_a^b f(x,y,z)dxdydz $$
 
-| ![joint](..//assets/img/MATH/calculus/ch15_6.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch15_6.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 Now we define the **triple integral over a general bounded region E in 3D space**.
 
 > # Type I for E
 
-| ![joint](..//assets/img/MATH/calculus/ch15_7.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch15_7.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 A solid region $$E$$ is said to be of **type I** if it lies between the graphs of two continuous functions of $$x$$ and $$y$$,
 

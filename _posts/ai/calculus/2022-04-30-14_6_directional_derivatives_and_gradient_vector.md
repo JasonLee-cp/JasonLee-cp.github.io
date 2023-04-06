@@ -17,15 +17,15 @@ $$ f*y(x_0, y_0) = \lim*{h \rightarrow 0} \frac{f(x_0, y_0 + h) - f(x_0, y_0)}{h
 
 But what if we want to find the rate of change of $$z$$ at $$(x_0, y_0)$$ in the direction of an **arbitrary unit vector** $$u = \left\langle a, b \right\rangle$$?
 
-| ![joint](..//assets/img/MATH/calculus/ch14_8.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch14_8.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 We consider the surface $$S$$ with the equation $$z = f(x,y)$$ and we let $$z_0 = f(x_0, y_0)$$. Then, $$P(x_0, y_0, z_0)$$ lies on $$S$$. The **vertical plane** that passes through $$P$$ **in the direction of** $$u$$ intersects $$S$$ in a curve $$C$$. Then, the **sople of the tagent line** $$T$$ to $$C$$ at the point $$P$$ is the **rate of change of** $$z$$ **in the direction of** $$u$$.
 
-| ![joint](..//assets/img/MATH/calculus/ch14_9.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch14_9.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 Now, consider another point $$Q(x,y,z)$$ on $$C$$ and $$P', Q'$$ are the **projections** of $$P, Q$$ onto the $$xy$$-plane, then the vector $$\overrightarrow{P'Q'}$$ is **parallel** to $$u$$. So,
 

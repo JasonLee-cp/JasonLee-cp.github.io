@@ -9,9 +9,9 @@ comments:
 
 > # Double Integrals in Polar Coordinates
 
-| ![joint](..//assets/img/MATH/calculus/ch15_2.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch15_2.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 Suppose we want to evaluate a double integral $$\iint_Rf(x,y)dA$$ but it's quite complicated to descript using a rectangle. Instead, we can simply use polar coordinates to evaluate the double integral
 
@@ -31,9 +31,9 @@ $$ \iint*R f(x,y)dA = \int*{\alpha}^{\beta}\int_a^b f(r \cos{\theta}, r\sin{\the
 
 > ## More complicated Region
 
-| ![joint](..//assets/img/MATH/calculus/ch15_3.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch15_3.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 If $$f$$ is continuous on a polar region of the form
 

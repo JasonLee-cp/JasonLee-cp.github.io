@@ -82,9 +82,9 @@ $$ k(t) = \frac{\lvert r'(t) \times r''(t) \rvert}{\lvert r'(t) \rvert^3} $$
 
 > # Normal and Binormal vectors
 
-| ![joint](..//assets/img/MATH/calculus/ch13_3.png) |
-| :-----------------------------------------------: |
-|          _stewart-calculus-8th-edition_           |
+| ![joint](/assets/img/MATH/calculus/ch13_3.png) |
+| :--------------------------------------------: |
+|         _stewart-calculus-8th-edition_         |
 
 ## Unit Normal vector
 

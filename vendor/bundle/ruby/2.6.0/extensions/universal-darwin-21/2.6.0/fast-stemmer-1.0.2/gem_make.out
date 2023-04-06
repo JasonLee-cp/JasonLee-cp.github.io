@@ -1,0 +1,17 @@
+current directory: /Users/jasonlee/Desktop/noisrucervlog.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230406-31078-1gngrpy.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jasonlee/Desktop/noisrucervlog.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" clean
+
+current directory: /Users/jasonlee/Desktop/noisrucervlog.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR="
+compiling porter.c
+compiling porter_wrap.c
+linking shared-object stemmer.bundle
+ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/6c37ac75-8bce-11ec-9b2f-4a23b0182bfd/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.4.Internal.sdk/usr/local/lib'
+
+current directory: /Users/jasonlee/Desktop/noisrucervlog.github.io/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 stemmer.bundle ./.gem.20230406-31078-n8cx4m
