@@ -100,6 +100,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-katex
 
 exclude:
   - README.md
@@ -109,6 +110,8 @@ exclude:
   - package-lock.json
   - Gemfile
   - Gemfile.lock
+
+markdown: kramdown
 
 kramdown:
   footnote_backlink: "&#x21a9;&#xfe0e;"
