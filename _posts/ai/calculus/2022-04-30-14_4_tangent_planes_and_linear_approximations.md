@@ -9,7 +9,7 @@ comments:
 
 > # Tangent Planes
 
-| ![joint](..//assets/img/MATH/calculus/ch14_3.png) |
+| ![joint](/assets/img/MATH/calculus/ch14_3.png) |
 | :-----------------------------------------------: |
 |          _stewart-calculus-8th-edition_           |
 
@@ -133,7 +133,7 @@ It's sometimes hard to use the above definition to check differentiablity. The f
 
 > # Differentials
 
-| ![joint](..//assets/img/MATH/calculus/ch14_4.png) |
+| ![joint](/assets/img/MATH/calculus/ch14_4.png) |
 | :-----------------------------------------------: |
 | _single variable (stewart-calculus-8th-edition)_  |
 
@@ -145,7 +145,7 @@ $$ dy = f'(x)dx $$
 
 **[2]** $$dy$$ - changed in height of the **tangent line** when $$x$$ changes by an amount $$dx = \Delta x$$
 
-| ![joint](..//assets/img/MATH/calculus/ch14_5.png) |
+| ![joint](/assets/img/MATH/calculus/ch14_5.png) |
 | :-----------------------------------------------: |
 |          _stewart-calculus-8th-edition_           |
 
