@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Grouping of Python Sequences"
+title: "del keyword and Garbage Collection"
 subtitle: ""
 categories: dev
 tags: python
